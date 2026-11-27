@@ -3,57 +3,44 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Verificação de domínio da Meta: NÃO REMOVER -->
   <meta name="facebook-domain-verification" content="jznnwipzaivhgq7q9naep2cr76zywo" />
-  <title>Loja de IA · Agentes de IA prontos para sua empresa</title>
-  <meta name="description" content="Encontre e contrate agentes de inteligência artificial testados e instalados para sua empresa: atendimento, vendas, marketing e mais.">
+  <title>Loja de IA · Em breve</title>
+  <meta name="description" content="Agentes de inteligência artificial testados e instalados para empresas brasileiras. Em breve.">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%234f46e5'/><text x='50' y='66' font-size='46' text-anchor='middle' fill='white' font-family='Arial' font-weight='bold'>IA</text></svg>">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  <style>
+    body { min-height: 100vh; display: flex; flex-direction: column; }
+    .breve { flex: 1; display: grid; place-items: center; padding: 56px 16px; }
+    .breve-in { max-width: 560px; text-align: center; }
+    .breve .logo { font-size: 1.4rem; margin-bottom: 28px; }
+    .breve .logo-marca { width: 44px; height: 44px; border-radius: 12px; font-size: 1rem; }
+    .selo { display: inline-block; padding: 6px 14px; border-radius: 999px; background: var(--accent-soft); color: var(--accent-text); font-weight: 600; font-size: .9rem; margin-bottom: 18px; }
+    .breve h1 { font-size: clamp(1.8rem, 5vw, 2.6rem); line-height: 1.15; margin: 0 0 14px; }
+    .breve p { color: var(--muted); font-size: 1.06rem; line-height: 1.6; margin: 0 0 28px; }
+    .rodape { margin-top: 0; padding: 0 0 20px; }
+    .rodape-base { margin-top: 0; text-align: center; }
+    .rodape-base a { color: var(--muted); text-decoration: underline; }
+  </style>
 </head>
 <body>
-  <div class="aviso-lancamento">Em lançamento: catálogo e preços são ilustrativos. <a href="#/contratar">Fale com a gente</a> para montar o seu agente.</div>
-  <header class="topo">
-    <div class="container topo-in">
-      <a href="#/" class="logo"><span class="logo-marca">IA</span> Loja de IA</a>
-      <button class="menu-btn" aria-label="Abrir menu" aria-expanded="false">☰</button>
-      <nav class="menu">
-        <a href="#/catalogo">Agentes</a>
-        <a href="#/planos">Planos</a>
-        <a href="#/como-funciona">Como funciona</a>
-        <a href="#/vender" class="btn btn-sec btn-p">Quero vender meu agente</a>
-      </nav>
+  <main class="breve">
+    <div class="breve-in">
+      <div class="logo"><span class="logo-marca">IA</span> Loja de IA</div>
+      <div><span class="selo">Em breve</span></div>
+      <h1>Agentes de IA prontos para a sua empresa</h1>
+      <p>Estamos preparando atendentes virtuais testados e instalados para empresas brasileiras. Quer ser avisado quando abrirmos?</p>
+      <a class="btn btn-pri" href="https://wa.me/5534991287810?text=Ol%C3%A1!%20Quero%20saber%20quando%20a%20Loja%20de%20IA%20abrir.">Falar no WhatsApp</a>
     </div>
-  </header>
-
-  <main id="app"></main>
+  </main>
 
   <footer class="rodape">
-    <div class="container rodape-in">
-      <div>
-        <a href="#/" class="logo"><span class="logo-marca">IA</span> Loja de IA</a>
-        <p>Agentes de inteligência artificial testados, instalados e mantidos para empresas brasileiras.</p>
-      </div>
-      <div>
-        <h4>Loja</h4>
-        <a href="#/catalogo">Catálogo de agentes</a>
-        <a href="#/planos">Planos e preços</a>
-        <a href="#/como-funciona">Como funciona</a>
-      </div>
-      <div>
-        <h4>Parceiros</h4>
-        <a href="#/vender">Venda seu agente</a>
-        <a href="#/contratar">Fale com a gente</a>
-        <a href="privacidade.html">Política de Privacidade</a>
-      </div>
-    </div>
     <div class="container rodape-base">
-      © <span id="ano"></span> Loja de IA. Todos os direitos reservados.<br>
-      70.324.986 GUSTAVO SANTOS AGUIAR RABELO · CNPJ 70.324.986/0001-30 · Delta/MG
+      © 2026 Loja de IA · 70.324.986 GUSTAVO SANTOS AGUIAR RABELO · CNPJ 70.324.986/0001-30 · Delta/MG<br>
+      <a href="privacidade.html">Política de Privacidade</a>
     </div>
   </footer>
-
-  <script src="dados.js"></script>
-  <script src="app.js"></script>
 </body>
 </html>
